@@ -12,6 +12,7 @@ public class IndexController {
 	@RequestMapping("/{moduleName}")
 	public String module(@PathVariable String moduleName) {
 		
+		
 		return moduleName;
 	}
 	
