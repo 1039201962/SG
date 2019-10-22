@@ -16,7 +16,7 @@ public class IndexController {
 	}
 	
 	@RequestMapping("/hello")
-	@ResponseBody 
+	@ResponseBody  
 	public String hello() {
 		
 		return "abcdefg";
