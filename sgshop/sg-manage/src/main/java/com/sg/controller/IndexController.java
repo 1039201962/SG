@@ -11,7 +11,7 @@ public class IndexController {
 	
 	@RequestMapping("/page/{moduleName}")
 	public String module(@PathVariable String moduleName) {
-		
+		System.out.println("123456789");
 		return moduleName;
 	}
 	

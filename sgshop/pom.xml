@@ -110,16 +110,26 @@
 		</dependency>
 
 		<!--使jsp页面生效 -->
-	<!-- 	<dependency>
+<dependency>
 			<groupId>org.apache.tomcat.embed</groupId>
 			<artifactId>tomcat-embed-jasper</artifactId>
-		</dependency> -->
+		</dependency>
 
 		<!--添加httpClient jar包 -->
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpclient</artifactId>
 		</dependency>
+		
+		   <dependency>
+        <groupId>org.apache.tomcat.embed</groupId>
+        <artifactId>tomcat-embed-jasper</artifactId>
+    </dependency>
+    <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>jstl</artifactId>
+    </dependency>
+		
 
 		<!--引入dubbo配置 -->
 		<dependency>
