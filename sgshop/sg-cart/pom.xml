@@ -4,6 +4,7 @@
     <groupId>com.sg</groupId>
     <artifactId>sgshop</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    
   </parent>
   <artifactId>sg-cart</artifactId>
 </project>
