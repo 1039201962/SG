@@ -9,8 +9,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class IndexController {
 
 	
-	@RequestMapping("/page/{moduleName}")
+	@RequestMapping("/{moduleName}")
 	public String module(@PathVariable String moduleName) {
+		
 		
 		return moduleName;
 	}
