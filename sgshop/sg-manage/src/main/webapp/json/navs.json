@@ -17,7 +17,7 @@
 		{
 			"title": "客户中心",
 			"icon": "&#xe612;",
-			"href": "userList.html",
+			"href": "/page/sys-userList",
 			"spread": false
 		},
 		{
