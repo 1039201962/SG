@@ -10,8 +10,8 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="layui/css/layui.css" media="all" />
-	<link rel="stylesheet" href="css/public.css" media="all" />
+	<link rel="stylesheet" href="/layui/css/layui.css" media="all" />
+	<link rel="stylesheet" href="/css/public.css" media="all" />
 </head>
 <body class="childrenBody">
 	<blockquote class="layui-elem-quote layui-bg-green">
@@ -52,7 +52,7 @@
 			</a>
 		</div>
 		<div class="panel layui-col-xs12 layui-col-sm6 layui-col-md4 layui-col-lg2">
-			<a href="javascript:;" data-url="page/user/userList.html">
+			<a href="javascript:;" data-url="page/user/userList">
 				<div class="panel_icon layui-bg-orange">
 					<i class="layui-anim seraph icon-icon10" data-icon="icon-icon10"></i>
 				</div>
@@ -222,7 +222,7 @@
 		</div>
 	</div>
 
-	<script type="text/javascript" src="layui/layui.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="/layui/layui.js"></script>
+	<script type="text/javascript" src="/js/main.js"></script>
 </body>
 </html>

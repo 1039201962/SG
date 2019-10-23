@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>SpringST后台管理系统</title>
+	<title>SG后台管理系统</title>
 	<meta name="renderer" content="webkit">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta http-equiv="Access-Control-Allow-Origin" content="*">
@@ -58,7 +58,7 @@
 						<a href="javascript:;"><i class="seraph icon-lock"></i><cite>锁屏</cite></a>
 					</li>
 					<li class="layui-nav-item" id="userInfo">
-						<a href="javascript:;"><img src="images/face.jpg" class="layui-nav-img userAvatar" width="35" height="35"><cite class="adminName">驊驊龔頾</cite></a>
+						<a href="javascript:;"><img src="/images/face.jpg" class="layui-nav-img userAvatar" width="35" height="35"><cite class="adminName">驊驊龔頾</cite></a>
 						<dl class="layui-nav-child">
 							<dd><a href="javascript:;" data-url="userInfo.html"><i class="seraph icon-ziliao" data-icon="icon-ziliao"></i><cite>个人资料</cite></a></dd>
 							<dd><a href="javascript:;" data-url="changePwd.html"><i class="seraph icon-xiugai" data-icon="icon-xiugai"></i><cite>修改密码</cite></a></dd>
@@ -74,7 +74,7 @@
 		<!-- 左侧导航 -->
 		<div class="layui-side layui-bg-black">
 			<div class="user-photo">
-				<a class="img" title="我的头像" ><img src="images/face.jpg" class="userAvatar"></a>
+				<a class="img" title="我的头像" ><img src="/images/face.jpg" class="userAvatar"></a>
 				<p>你好！<span class="userName">user</span>, 欢迎登录</p>
 			</div>
 			<!-- 搜索 -->
@@ -89,7 +89,7 @@
 			<div class="navBar layui-side-scroll" id="navBar">
 				<ul class="layui-nav layui-nav-tree">
 					<li class="layui-nav-item layui-this">
-						<a href="javascript:;" data-url="main.html"><i class="layui-icon" data-icon=""></i><cite>后台首页</cite></a>
+						<a href="javascript:;" data-url="main"><i class="layui-icon" data-icon=""></i><cite>后台首页</cite></a>
 					</li>
 				</ul>
 			</div>
@@ -112,14 +112,14 @@
 				</ul>
 				<div class="layui-tab-content clildFrame">
 					<div class="layui-tab-item layui-show">
-						<iframe src="main.html"></iframe>
+						<iframe src="sys-main"></iframe>
 					</div>
 				</div>
 			</div>
 		</div>
 		<!-- 底部 -->
 		<div class="layui-footer footer">
-			<p><span>SpringST后台系统</span></p>
+			<p><span>SG后台系统</span></p>
 			　　<!-- <a onclick="donation()" class="layui-btn layui-btn-danger layui-btn-sm">捐赠作者</a> -->
 		</div>
 	</div>
@@ -128,8 +128,8 @@
 	<div class="site-tree-mobile"><i class="layui-icon">&#xe602;</i></div>
 	<div class="site-mobile-shade"></div>
 
-	<script type="text/javascript" src="layui/layui.js"></script>
-	<script type="text/javascript" src="js/index.js"></script>
-	<script type="text/javascript" src="js/cache.js"></script>
+	<script type="text/javascript" src="/layui/layui.js"></script>
+	<script type="text/javascript" src="/js/index.js"></script>
+	<script type="text/javascript" src="/js/cache.js"></script>
 </body>
 </html>

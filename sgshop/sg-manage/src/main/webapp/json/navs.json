@@ -9,7 +9,7 @@
 		{
 			"title": "商品列表",
 			"icon": "&#xe634;",
-			"href": "goodsList.html",
+			"href": "/page/sys-goodsList",
 			"spread": false
 		}
 	],
