@@ -23,5 +23,13 @@ public class UserServiceImpl implements UserService{
 		return new PageObject(0,"", users , userList);
 	}
 
+	@Override
+	public PageObject findUser(String key) {
+		System.out.println("===================================="+key);
+		List<User> findlike = userMapper.findlike(key);
+		int size = findlike.size();
+		return new PageObject(0,"",size,findlike);
+	}
+
 
 }

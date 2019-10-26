@@ -14,8 +14,13 @@ public class UserController {
 	private UserService userService;
 	
 	@RequestMapping("findAll")
-	public PageObject findAllUser(Integer page,Integer limit){
-		PageObject findAllUser = userService.findAllUser(page,limit);	
-		  return findAllUser;
+	public PageObject findAllUser(Integer page,Integer limit,String key){
+		PageObject findUser=new PageObject();
+		if(key==null) {	
+		findUser = userService.findAllUser(page,limit);	
+		}else {
+		findUser = userService.findUser(key);
+		}
+		return findUser;
 	}
 }
