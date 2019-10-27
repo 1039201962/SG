@@ -23,7 +23,7 @@
 		{
 			"title": "管理中心",
 			"icon": "&#xe612;",
-			"href": "adminList.html",
+			"href": "/page/sys-adminList",
 			"spread": false
 		},
 		{
